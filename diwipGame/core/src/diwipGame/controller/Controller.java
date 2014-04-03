@@ -62,7 +62,7 @@ public class Controller {
 			}
 		});
 
-		//add buttons to model for later access, like changing the default positioning & design
+		//add buttons to model for later access, like changing the default positioning & size
 		Hashtable<String, Button> buttons = model.getButtons();
 		buttons.put("speedUp", speedUp);
 		buttons.put("speedDown", speedDown);
